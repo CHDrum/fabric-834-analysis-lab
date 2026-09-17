@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "synthetic_only": true,
+  "workspace_name": "Fabric-834-Analysis-Demo",
+  "capacity_id": "SELECT_YOUR_APPROVED_CAPACITY",
+  "foundation_items": [
+    {"displayName": "EnrollmentLanding", "type": "Lakehouse", "description": "Synthetic unchanged X12 834 sources and parser staging."},
+    {"displayName": "EnrollmentProducts", "type": "Warehouse", "description": "Synthetic enrollment members, coverage, audit and exception products."}
+  ],
+  "notebook_name": "LandAndParse834",
+  "pipeline_name": "EnrollmentIngestion",
+  "semantic_model_name": "EnrollmentAnalytics",
+  "report_name": "Fabric 834 Analysis",
+  "source_folder": "Files/834-demo/raw",
+  "publication_procedure": "dbo.publish_enrollment_products",
+  "deployment_status": "portable_template_not_deployed"
+}

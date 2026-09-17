@@ -1,0 +1,10 @@
+{
+  "workspace": "00000000-0000-4000-8000-000000000001",
+  "lakehouse": "00000000-0000-4000-8000-000000000002",
+  "warehouse": "00000000-0000-4000-8000-000000000003",
+  "semantic_model": "00000000-0000-4000-8000-000000000004",
+  "notebook": "00000000-0000-4000-8000-000000000005",
+  "environment": "00000000-0000-4000-8000-000000000006",
+  "endpoint": "replace-me.datawarehouse.fabric.microsoft.com",
+  "database": "EnrollmentProducts"
+}

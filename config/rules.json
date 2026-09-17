@@ -1,0 +1,21 @@
+{
+  "rule_version": "SYNTHETIC-2027-v1",
+  "synthetic_only": true,
+  "as_of_date": "2027-01-01",
+  "child_age_limit": 26,
+  "child_relationships": ["19"],
+  "exempt_relationships": [],
+  "required_subscriber_fields": ["ssn", "dob", "employee_id"],
+  "required_dependent_fields": ["ssn", "dob"],
+  "comparable_benefits": ["HLT", "PDG"],
+  "medical_benefit": "HLT",
+  "rx_benefit": "PDG",
+  "plans": [
+    {"plan_id": "MED-A", "benefit": "HLT"},
+    {"plan_id": "MED-B", "benefit": "HLT"},
+    {"plan_id": "RX-A", "benefit": "PDG"},
+    {"plan_id": "RX-B", "benefit": "PDG"}
+  ],
+  "allowed_medical_rx_pairs": [["MED-A", "RX-A"], ["MED-B", "RX-B"]],
+  "note": "Illustrative workshop rules only. Not approved organizational eligibility or enrollment policy."
+}
